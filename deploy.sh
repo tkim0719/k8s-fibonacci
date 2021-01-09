@@ -6,7 +6,7 @@ docker push tkim0719/multii-server:latest
 docker push tkim0719/multi-worker:latest
 
 docker push tkim0719/multi-client:$SHA
-docker push tkim0719/multii-server:$SHA
+docker push tkim0719/multi-server:$SHA
 docker push tkim0719/multi-worker:$SHA
 
 kubectl apply -f k8s
