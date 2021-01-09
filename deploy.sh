@@ -2,7 +2,7 @@ docker build -t tkim0719/multi-client:latest -t tkim0719/multi-client:$SHA -f ./
 docker build -t tkim0719/multi-server:latest -t tkim0719/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t tkim0719/multi-worker:latest -t tkim0719/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push tkim0719/multi-client:latest
-docker push tkim0719/multii-server:latest
+docker push tkim0719/multi-server:latest
 docker push tkim0719/multi-worker:latest
 
 docker push tkim0719/multi-client:$SHA
